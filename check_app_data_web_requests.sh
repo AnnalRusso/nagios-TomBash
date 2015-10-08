@@ -1,8 +1,6 @@
 #!/bin/bash
 #set -x
-###########################################
-#Annalisa Russo for     #
-########################
+
 help(){
         echo "usage: $0 <-w warning threshold> <-c error_threshold>"
 }
