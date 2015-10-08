@@ -1,14 +1,6 @@
 #!/bin/bash
 #set -x
-##############################################################################################################################################################################################
-#check following things in tomcat:
-#number of busy threads,
-#Put them into all application servers. Checks must have following switches
-#-w number (if over issue warning)
-#-e number(if over issue error)
-#########################################################################
-#AnnalRu       #
-#######################
+
 help(){
         echo "usage: $0 <-w warning threshold> <-c error_threshold>"
 }
